@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PCA-Guided Autoencoding
 ## PCA-Guided Autoencoding for Structured Dimensionality Reduction in Active Infrared Thermography
 
@@ -38,8 +39,6 @@ conda activate pca_guided_ae
 ```
 
 ### Step 2: Running the code:
-
-#### Multi-Class Segmentation:
 ```
 apply_tsr.ipynb --> Applies thermographic signal reconstruction
 apply_pca.ipynb --> Applies principal component analysis
@@ -47,3 +46,7 @@ apply_cnn.ipynb --> Applies 1D-DCAE-AIRT
 apply_ae.ipynb --> Applies a fully connected autoencoder without PCA distillation loss - DAT
 apply_ae_kd.ipynb --> Applies a fully connected autoencoder with PCA distillation loss
 ```
+=======
+# pca_guided_ae
+PCA-Guided Autoencoding for Dimensionality Reduction
+>>>>>>> e4f730f013d513a5bb3a01ce1e17153a87086a16
